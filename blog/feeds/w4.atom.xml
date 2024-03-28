@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w4</title><link href="./" rel="alternate"></link><link href="./feeds/w4.atom.xml" rel="self"></link><id>./</id><updated>2024-03-28T16:41:23+08:00</updated><entry><title>W4</title><link href="./2024-Spring-40971134-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-03-28T16:41:23+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-14:./2024-Spring-40971134-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;W4 LaTeX中翻英報告&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;W4 LaTeX中翻英報告&lt;/p&gt;
+
+
+&lt;h1&gt;W4&lt;/h1&gt;
+&lt;p&gt;使用codespaces維護倉儲內容&lt;/p&gt;
+&lt;p&gt;學習使用Github Actions編譯LaTeX得到分組pdf報告&lt;/p&gt;
+&lt;p&gt;在codespaces上傳自己在報告中負責的部分&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry></feed>
