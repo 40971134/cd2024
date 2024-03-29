@@ -1,0 +1,224 @@
+\documentclass[12pt,a4paper]{report}  %紙張設定
+\usepackage{xeCJK}%中文字體模組
+\setCJKmainfont{標楷體} %設定中文字體
+%\setCJKmainfont{MoeStandardKai.ttf}
+\newfontfamily\sectionef{Times New Roman}%設定英文字體
+%\newfontfamily\sectionef{Nimbus Roman}
+\usepackage{enumerate}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\fontsize{20}{22}\selectfont\bfseries\filcenter}
+{\chaptertitlename\ \thechapter}{10pt}{\fontsize{18}{22}\selectfont}
+\titlespacing*{\chapter}{0pt}{-10pt}{2pt}
+\usepackage{amsmath,amssymb}%數學公式、符號
+\usepackage{amsfonts} %數學簍空的英文字
+\usepackage{graphicx, subfigure}%圖形
+\usepackage{fontawesome5} %引用icon
+\usepackage{type1cm} %調整字體絕對大小
+\usepackage{textpos} %設定文字絕對位置
+\usepackage[top=2.5truecm,bottom=2.5truecm,
+left=3truecm,right=2.5truecm]{geometry}
+\usepackage{titlesec} %目錄標題設定模組
+\usepackage{titletoc} %目錄內容設定模組
+\usepackage{textcomp} %表格設定模組
+\usepackage{multirow} %合併行
+%\usepackage{multicol} %合併欄
+\usepackage{CJK} %中文模組
+\usepackage{CJKnumb} %中文數字模組
+\usepackage{wallpaper} %浮水印
+\usepackage{listings} %引用程式碼
+\usepackage{hyperref} %引用url連結
+\usepackage{setspace}
+\usepackage{lscape}%設定橫式
+\lstset{language=Python, %設定語言
+		basicstyle=\fontsize{10pt}{2pt}\selectfont, %設定程式內文字體大小
+		frame=lines,	%設定程式框架為線
+}
+%\usepackage{subcaption}%副圖標
+\graphicspath{{./../images/}} %圖片預設讀取路徑
+\usepackage{indentfirst} %設定開頭縮排模組
+\renewcommand{\figurename}{\Large 圖.} %更改圖片標題名稱
+\renewcommand{\tablename}{\Large 表.}
+\renewcommand{\lstlistingname}{\Large 程式.} %設定程式標示名稱
+\hoffset=-5mm %調整左右邊界
+\voffset=-8mm %調整上下邊界
+\setlength{\parindent}{3em}%設定首行行距縮排
+\usepackage{appendix} %附錄
+\usepackage{diagbox}%引用表格
+\usepackage{multirow}%表格置中
+
+%--------------------封面-----------------------------%
+\begin{document}
+
+\begin{center}
+\vspace*{1cm}
+  \fontsize{18}{16}\selectfont \textbf{POLITECNICO DI TORINO}\par
+\end{center}
+\begin{center}
+    \fontsize{18}{16}\selectfont \textbf{都靈理工大學}\\
+\end{center}
+% 在图像下方添加分界线
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.5em}
+\begin{center}
+  \fontsize{12}{16}\selectfont \textbf{ANALYSIS OF THE ODOO SOFTWARE CAPABILITIES REGARDING 
+PRODUCT LIFECYCLE MANAGEMENT, MANUFACTURING EXECUTION 
+SYSTEMS AND THEIR INTEGRATION}\par
+\end{center}
+\begin{center}
+   \fontsize{12}{22}\selectfont \textbf{ODOO 軟體功能分析產品生命週期管理、製造執行系統及其集成}
+\end{center}
+\vspace{1em}
+\begin{figure}[h]
+\vspace{2cm}
+    \centering
+    \includegraphics[width=0.33\textwidth]{logo} 
+    \label{fig:logo}
+\end{figure}
+\vspace{2cm}
+\noindent
+\small\textbf{SUPERVISORS} \hfill \textbf{CANDIDATE}\\
+\small\textbf{指導者} \hfill \textbf{申請人}\\
+\small\textbf{Giulia Bruno } \hfill \textbf{Lucas Flabiano Perotti}\\
+\small\textbf{朱莉婭·布魯諾} \hfill \textbf{盧卡斯·弗拉比亞諾·佩羅蒂}\\
+\small\textbf{Franco Lombardi}\hspace{\fill} \\
+\small\textbf{佛朗哥·隆巴迪}\hspace{\fill} \\
+\noindent\rule{\textwidth}{0.4pt}
+\begin{center}
+\fontsize{12}{22}\selectfont {Academic Year 2020 – 2021}\\
+\fontsize{12}{22}\selectfont {2020 – 2021 學年}
+\end{center}
+\thispagestyle{empty}
+\newpage
+%--------------------分頁-----------------------------%
+\vspace*{\fill}
+\vspace*{\fill}
+\begin{raggedright}
+    \fontsize{12}{14}\selectfont This work is subject to the Creative Commons Licence\\
+    \fontsize{12}{14}\selectfont 本作品受知識共享授權約束\\[2ex]
+    \fontsize{12}{12}\selectfont All Rights Reserved\\
+    \fontsize{12}{12}\selectfont 版權所有\\
+
+\end{raggedright}
+\thispagestyle{empty}
+\newpage
+%--------------------致謝-----------------------------%
+\pagenumbering{roman}
+\setcounter{page}{2}
+
+\begin{center}
+ \fontsize{18}{16}\selectfont \textbf{ACKNOWLEDGMENTS}\\
+\fontsize{18}{16}\selectfont \textbf{致謝}\par
+\end{center}
+
+\fontsize{14pt}{2.5pt}\sectionef
+  {  I would like to thank Dr. Giulia Bruno for her expert advice and invitation to develop this project, as well as Emiliano Traini, for his extraordinary support in this thesis process.}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+  {  我要感謝朱莉婭·布魯諾博士的專家建議和邀請來開發這個
+專案以及埃米利亞諾·特拉尼，感謝他在本論文過程中的非凡支持。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef
+  {  My most sincere gratitude to my parents, Julio and Michelle, who gave me everything, 
+from my life to their extensive and unconditional support and encouragement; also, to my 
+brothers and my fiancée Ana, who inspired me through all these years.}\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+  {  我最誠摯的感謝我的父母Julio和Michelle，他們給了我一切，從我的生活到他們廣泛、無條件的支持和鼓勵； 還有，對我的
+兄弟們和我的未婚妻安娜這些年來一直激勵著我。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef
+{  My deepest thanks and appreciation to Icaro, Matt, and Maz, for their endless help and 
+support throughout not just this project, but for all the other moments in which they pushed 
+me to be better. Also, for those who have touched my life, being my greatest gifts, you all 
+know who you are, and I am truly grateful for sharing special moments of my lif}\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+  {我對 Icaro、Matt 和 Maz 表示最深切的感謝和讚賞，感謝他們的無盡幫助，
+不僅支持這個項目，還支持他們推動的所有時刻
+我要變得更好。 另外，對於那些感動我生命的人，你們是我最好的禮物
+知道你是誰，我真的很感激分享我生命中的特殊時刻}\\[15pt]
+\newpage
+%--------------------摘要-----------------------------%
+\begin{center}
+ \fontsize{18}{16}\selectfont \textbf{ABSTRACT}\\
+\fontsize{18}{16}\selectfont \textbf{摘要}\par
+
+\end{center}
+\fontsize{16}{18}\sectionef \textbf
+ {ANALYSIS  OF  THE ODOO  SOFTWARE  CAPABILITIES  REGARDING  
+ PRODUCT  LIFECYCLE  MANAGEMENT,  MANUFACTURING  EXECUTION 
+ SYSTEMS  AND  THEIR  INTEGRATION }。\\[2pt]
+\fontsize{16}{18}\sectionef \textbf
+  {(ODOO 軟體功能分析產品生命週期管理、製造執行系統及其集成)}。\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{ The second half of the 20th century had been marked for the advancements of computer 
+technology in all aspects of production.}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {20世紀下半葉以電腦的進步為標誌生產各個環節的技術}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{ The key feature of that statement is the undeniable truth that alongside the increased 
+complexity allowed by computing power comes an ever increasing production of 
+overwhelming amounts of information. }。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {該聲明的關鍵特徵是不可否認的事實，即隨著增加的計算能力所允許的複雜性，帶來了不斷增加的產量與海量資訊。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{From separate perspectives of the industrial landscape, several systems were brewed by 
+that sheer necessity for organization, automation and waste reduction focusing on that pool 
+of useful data. }。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {從工業景觀的不同角度來看，出於組織、自動化和減少浪費的絕對必要性，一些系統誕生了，這些系統專注於有用資料池。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{ERP (from a managerial perspective), MES (from a production perspective) and more 
+recently PLM (from a strategic development/redevelopment perspective) emerged as 
+information solutions tackling this problem from different angles. These solutions, however 
+effective, are always plagued by the fundamental incompatibility between the tools that 
+implement those systems.}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {ERP（從管理角度）、MES（從生產角度）以及最近的 PLM（從策略開發/再開發角度）作為
+資訊解決方案從不同角度解決這個問題。 這些解決方案無論多麼有效，總是受到實現這些系統的工具之間根本不相容的困擾。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{This paper objectives revolve around analyzing the integration PLM and MES systems 
+from a theoretical perspective and comment on the use of the Odoo software tool to 
+implement said integration.}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {本文的目標是從理論角度分析 PLM 和 MES 系統的集成，並對使用 Odoo 軟體工具實現所述集成進行評論。}\\[15pt]
+\newpage
+\fontsize{14pt}{2.5pt}\sectionef 
+{The Odoo software was described in detail (regarding its use for manufacturing 
+envirorment) icluding how it implements PLM and MES. Then, the software was subjected 
+to the simulation of a fictional firm devised in the molds of Industry 4.0. This company was
+a fictional recently founded small case manufacturing company that uses plastic injection 
+molding as their primary mean of production and uses additive manufacturing and fast 
+prototyping as part of their business strategy.}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {詳細描述了 Odoo 軟體（關於其在製造環境中的使用），包括它如何實施 PLM 和 MES。 然後，該軟體對一家按照工業 4.0 模式設計的虛構公司進行模擬。 該公司是一家虛構的最近成立的小型箱體製造公司，使用塑膠注塑作為主要生產手段，並使用積層製造和快速原型製作作為其業務策略的一部分。}\\[15pt]
+
+\fontsize{14pt}{2.5pt}\sectionef 
+{Keywords: Product Life-Cycle Management, Product Life-Cycle Management, Odoo}。\\[1pt]
+
+\fontsize{14pt}{5pt}\sectionef
+ {關鍵字：產品生命週期管理、產品生命週期管理、Odoo}\\[15pt]
+\newpage
+%--------------------目錄-----------------------------%
+%--------------------正文-----------------------------%
+\input{01.tex}
+\newpage
+\input{02.tex}
+\newpage
+\input{03.tex}
+\newpage
+\input{04.tex}
+\newpage
+\end{document}
