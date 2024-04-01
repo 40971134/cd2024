@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w5</title><link href="./" rel="alternate"></link><link href="./feeds/w5.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T11:18:40+08:00</updated><entry><title>W5</title><link href="./2024-Spring-40971134-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-01T11:18:40+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-21:./2024-Spring-40971134-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w5</title><link href="./" rel="alternate"></link><link href="./feeds/w5.atom.xml" rel="self"></link><id>./</id><updated>2024-04-01T12:30:06+08:00</updated><entry><title>W5</title><link href="./2024-Spring-40971134-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-01T12:30:06+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-21:./2024-Spring-40971134-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
 
 
@@ -7,4 +7,18 @@
 &lt;p&gt;各組自行搜尋前面已經發布的教學影片在影片上填上字幕&lt;/p&gt;
 &lt;p&gt;上傳到可以嵌入到各分組的網站上&lt;/p&gt;
 &lt;p&gt;並在教學影片下方以摘要方式說明該影片的教學重點&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://youtu.be/yQHplNmwepg"&gt;cd2024 2b w3 如何利用 Gidpod 維護分組網站 9&lt;/a&gt;&lt;/p&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;&lt;a href="https://youtu.be/yQHplNmwepg"&gt;cd2024 2b w3 如何利用 Gidpod 維護分組網站 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://onedrive.live.com/?cid=9683D19A89B0DEC7&amp;id=9683D19A89B0DEC7%2117299&amp;parId=root&amp;o=OneUp"&gt;文字稿&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先用git pull把倉儲更新一下&lt;/li&gt;
+&lt;li&gt;使用chmod u+x init_replit和./init_replit來處理環境&lt;/li&gt;
+&lt;li&gt;沒有權限所以用key鍵&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://youtu.be/k6dIAPkvNkU"&gt;cd2024 2b w4 利用 Gitpod 與個人 token 取得分組倉儲改版權限 13&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://onedrive.live.com/?cid=9683D19A89B0DEC7&amp;id=9683D19A89B0DEC7%2117300&amp;parId=root&amp;o=OneUp"&gt;文字稿&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要編輯Token的話，要更換目錄到倉儲底下的git&lt;/li&gt;
+&lt;li&gt;使用vi config編輯檔案的時候，用K往上、J往下、H往左、L往右&lt;/li&gt;
+&lt;li&gt;按ESC跳出插入模組，然後按帽號進入命令模式&lt;/li&gt;
+&lt;/ul&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry></feed>
