@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-11T05:45:06+08:00</updated><entry><title>W6</title><link href="./2024-Spring-40971134-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-11T05:45:06+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-28:./2024-Spring-40971134-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;W6 NX零組件繪製以及CoppeliaSim場景模擬&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-12T12:54:51+08:00</updated><entry><title>40971134_W6下載NX</title><link href="./2024-Spring-40971134-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-04-12T12:54:51+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-28:./2024-Spring-40971134-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;W6 NX零組件繪製以及CoppeliaSim場景模擬&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W6 NX零組件繪製以及CoppeliaSim場景模擬&lt;/p&gt;
 
 
 &lt;h1&gt;W6&lt;/h1&gt;
 &lt;p&gt;說明協同 NX 零組件繪圖以及 CoppeliaSim 場景模擬相關檔案格式&lt;/p&gt;
-&lt;p&gt;將NX檔案下載及安裝成可攜程式&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>W5</title><link href="./2024-Spring-40971134-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-02T05:07:13+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-21:./2024-Spring-40971134-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
+&lt;p&gt;將NX檔案下載及安裝成可攜程式&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W5影片上字幕</title><link href="./2024-Spring-40971134-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-04-12T12:54:06+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-21:./2024-Spring-40971134-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W5 教學影片上字幕&lt;/p&gt;
 
 
@@ -22,7 +22,7 @@
 &lt;li&gt;使用chmod u+x init_replit和./init_replit來處理環境&lt;/li&gt;
 &lt;li&gt;沒有權限所以用key鍵&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;hr&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/k6dIAPkvNkU"&gt;cd2024 2b w4 利用 Gitpod 與個人 token 取得分組倉儲改版權限 13&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/k6dIAPkvNkU?si=KG60s1qIVfY5BnSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://onedrive.live.com/?cid=9683D19A89B0DEC7&amp;id=9683D19A89B0DEC7%2117300&amp;parId=root&amp;o=OneUp"&gt;文字稿&lt;/a&gt;&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;li&gt;要編輯Token的話，要更換目錄到倉儲底下的git&lt;/li&gt;
 &lt;li&gt;使用vi config編輯檔案的時候，用K往上、J往下、H往左、L往右&lt;/li&gt;
 &lt;li&gt;按ESC跳出插入模組，然後按帽號進入命令模式&lt;/li&gt;
-&lt;/ul&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>W4</title><link href="./2024-Spring-40971134-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-04-01T13:23:16+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-14:./2024-Spring-40971134-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;W4 LaTeX中翻英報告&lt;/p&gt;
+&lt;/ul&gt;</content><category term="w5"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W4使用LaTeX翻譯</title><link href="./2024-Spring-40971134-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-14T11:00:00+08:00</published><updated>2024-04-12T12:52:38+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-14:./2024-Spring-40971134-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;W4 LaTeX中翻英報告&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W4 LaTeX中翻英報告&lt;/p&gt;
 
 
@@ -39,7 +39,7 @@
 &lt;p&gt;學習使用Github Actions編譯LaTeX得到分組pdf報告&lt;/p&gt;
 &lt;p&gt;在codespaces上傳自己在報告中負責的部分&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;在分組報告中我負責的部分是第三章及第四章&lt;a href="https://github.com/40971134/cd2024/blob/main/latex/001.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>W3</title><link href="./2024-Spring-40971134-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-03-28T16:26:30+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-07:./2024-Spring-40971134-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;W3 期中報告方式&lt;/p&gt;
+&lt;p&gt;在分組報告中我負責的部分是第三章及第四章&lt;a href="https://github.com/40971134/cd2024/blob/main/latex/001.pdf"&gt;pdf&lt;/a&gt;&lt;/p&gt;</content><category term="w4"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W3維護分組倉儲</title><link href="./2024-Spring-40971134-w3-blog-tutorial.html" rel="alternate"></link><published>2024-03-07T11:00:00+08:00</published><updated>2024-04-12T12:43:46+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-03-07:./2024-Spring-40971134-w3-blog-tutorial.html</id><summary type="html">&lt;p&gt;W3 期中報告方式&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W3 期中報告方式&lt;/p&gt;
 
 
@@ -47,7 +47,7 @@
 &lt;p&gt;將組員的個人倉儲納入分組倉儲成為子模組&lt;/p&gt;
 &lt;p&gt;學習在Replit維護分組倉儲&lt;/p&gt;
 &lt;p&gt;分配各組員製作英翻中報告的部分&lt;/p&gt;
-&lt;p&gt;下載並學習使用LaTeX製作報告&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>W2</title><link href="./2024-Spring-40971134-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-03-28T16:07:37+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-02-29:./2024-Spring-40971134-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;W2 小組分組&lt;/p&gt;
+&lt;p&gt;下載並學習使用LaTeX製作報告&lt;/p&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W2建立分組倉儲</title><link href="./2024-Spring-40971134-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-04-12T12:41:47+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-02-29:./2024-Spring-40971134-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;W2 小組分組&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W2 小組分組&lt;/p&gt;
 
 
@@ -56,7 +56,7 @@
 &lt;p&gt;組員:40923140、40923149、40923150、40923152、40971134、40971140、40971219、40971220&lt;/p&gt;
 &lt;p&gt;建立分組倉儲&lt;/p&gt;
 &lt;p&gt;在倉儲新增個人子模組&lt;/p&gt;
-&lt;p&gt;學習使用codespaces維護分組網站&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>W1</title><link href="./2024-Spring-40971134-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-03-28T15:57:06+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-02-22:./2024-Spring-40971134-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;W1 協同產品設計實習課程倉儲建設&lt;/p&gt;
+&lt;p&gt;學習使用codespaces維護分組網站&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W1建立個人倉儲</title><link href="./2024-Spring-40971134-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-22T11:00:00+08:00</published><updated>2024-04-12T12:41:48+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-02-22:./2024-Spring-40971134-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;W1 協同產品設計實習課程倉儲建設&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W1 協同產品設計實習課程倉儲建設&lt;/p&gt;
 
 
