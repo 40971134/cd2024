@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-12T12:55:26-00:00</lastmod>
+<lastmod>2024-04-14T12:38:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-12T12:55:26-00:00</lastmod>
+<lastmod>2024-04-14T12:38:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-12T12:55:26-00:00</lastmod>
+<lastmod>2024-04-14T12:38:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-12T12:55:26-00:00</lastmod>
+<lastmod>2024-04-14T12:38:10-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./2024-Spring-40971134-w2-blog-tutorial.html</loc>
-<lastmod>2024-04-12T12:41:47+08:00</lastmod>
+<lastmod>2024-04-14T12:37:48+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -96,7 +96,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/w2.html</loc>
-<lastmod>2024-04-12T12:41:47+08:06</lastmod>
+<lastmod>2024-04-14T12:37:48+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -131,14 +131,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/wang-zhi-bian-xie.html</loc>
-<lastmod>2024-04-12T12:54:51+08:06</lastmod>
+<lastmod>2024-04-14T12:37:48+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40971134.html</loc>
-<lastmod>2024-04-12T12:54:51+08:06</lastmod>
+<lastmod>2024-04-14T12:37:48+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
