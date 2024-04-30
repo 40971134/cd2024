@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-30T17:17:52+08:00</updated><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-04-30T17:17:52+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-30T17:24:15+08:00</updated><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-04-30T17:24:15+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 
 
@@ -8,9 +8,12 @@
 &lt;p&gt;&lt;a href="https://40971134.github.io/cd2024/content/Brython.html"&gt;2b各學員相關網站&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;任務二 鋼球平衡台 PID 控制與模擬&lt;/h2&gt;
-&lt;h3&gt;論文一 Construction and theoretical study&lt;/h3&gt;
+&lt;h3&gt;論文一:Construction and theoretical study&lt;/h3&gt;
 &lt;p&gt;摘要:這篇論文描述了控制理論和其應用在操作動態系統中的重要性，特別是在補償固有不穩定或半穩定系統中受到的干擾和外部作用的情況。論文透過物理構建一個平台來展示理論，並將實體平台的結果與計算機模擬結果進行比較。研究重點在於探討當使用比例-積分-微分（PID）控制器來平衡一個球在平台上時，穩定一個本質上不穩定或半穩定系統的限制，以及這些限制如何與理論預期不同。&lt;/p&gt;
-&lt;p&gt;結論:部分指出，實驗平台能夠在設定的系統要求下達到令人滿意的表現，尤其是在穩定時間方面，但靜態誤差未能達到理想狀態。論文也討論了理論模擬和實驗結果之間的差異，主要是由於實體模型的物理特性和電子元件的非理想表現造成的。此外，論文探討了在穩定自然不穩定或半穩定系統時的性能限制，並指出這些限制主要來自於系統調整的敏捷性、控制器設計的規格限制，以及輸入數據採集的精確度和速度。&lt;/p&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W8期中資料整理</title><link href="./2024-Spring-40971134-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-28T14:03:53+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-11:./2024-Spring-40971134-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;W8 介紹W1到期中所做的部分&lt;/p&gt;
+&lt;p&gt;結論:部分指出，實驗平台能夠在設定的系統要求下達到令人滿意的表現，尤其是在穩定時間方面，但靜態誤差未能達到理想狀態。論文也討論了理論模擬和實驗結果之間的差異，主要是由於實體模型的物理特性和電子元件的非理想表現造成的。此外，論文探討了在穩定自然不穩定或半穩定系統時的性能限制，並指出這些限制主要來自於系統調整的敏捷性、控制器設計的規格限制，以及輸入數據採集的精確度和速度。&lt;/p&gt;
+&lt;h3&gt;論文二:A real time control system for balancing a ball on a platform with FPGA parallel implementation&lt;/h3&gt;
+&lt;p&gt;摘要:本篇論文提出了一種新的基於PID調節器的解決方案，用於實時提高在平台上調節球的位置的精確性。開發了一個平衡球的傳遞函數，並合成了一個PID調節器，該調節器在FPGA上實現了並行計算。通過自然模擬驗證了提高調節精度的效果。&lt;/p&gt;
+&lt;p&gt;結論:在結論部分，文章提出了一種新的科學實踐方法來提高實時調節球在平台上位置的效率。這種方法使用了在FPGA上實現的PID調節器及其計算單元。開發了兩個在一個FPGA芯片上的並行PID控制器，用於獨立控制一個對象的兩個參數。確保了控制物體的PID控制器輪廓計算的並行處理，並規範了調節器的輸出。通過自然模擬證實了提高在平台上調節球的位置的精確度。所設計的控制器可用於實時控制具有多個控制參數的高速物體。&lt;/p&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W8期中資料整理</title><link href="./2024-Spring-40971134-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-28T14:03:53+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-11:./2024-Spring-40971134-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;W8 介紹W1到期中所做的部分&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W8 介紹W1到期中所做的部分&lt;/p&gt;
 
 
