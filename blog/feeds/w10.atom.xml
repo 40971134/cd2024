@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w10</title><link href="./" rel="alternate"></link><link href="./feeds/w10.atom.xml" rel="self"></link><id>./</id><updated>2024-05-04T10:58:13+08:00</updated><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-05-04T10:58:13+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w10</title><link href="./" rel="alternate"></link><link href="./feeds/w10.atom.xml" rel="self"></link><id>./</id><updated>2024-05-04T12:53:54+08:00</updated><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-05-04T12:53:54+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 
 
@@ -34,6 +34,7 @@
 &lt;li&gt;4.在SciTE中執行上列程式，確定系統穩定後，按下Q終止模擬&lt;/li&gt;
 &lt;li&gt;5.matplotlib將畫出鋼球在平台上的x與y座標圖&lt;/li&gt;
 &lt;/ul&gt;
-
+&lt;p&gt;&lt;a href="https://github.com/40971134/cd2024/blob/main/images/x%E8%88%87y%E5%BA%A7%E6%A8%99%E5%9C%96.png"&gt;x與y座標圖&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;任務三&lt;/h2&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry></feed>
+&lt;h2&gt;任務三 鋼球平衡台零組件繪圖&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://1drv.ms/f/c/9683d19a89b0dec7/EjI6ycO981pAipjT2WW9rtIB_8TYSYhfvFjevqW6iaPzOw?e=z20w5E"&gt;零組件圖檔&lt;/a&gt;&lt;/p&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry></feed>
