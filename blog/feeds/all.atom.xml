@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-04T10:29:57+08:00</updated><entry><title>40971134_W11課程心得、NX繪製</title><link href="./2024-Spring-40971134-w11-blog-tutorial.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-04T10:29:57+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-05-02:./2024-Spring-40971134-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;W11 課程心得上傳、利用NX繪製鋼球平衡台所需的零組件&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-05-04T10:58:13+08:00</updated><entry><title>40971134_W11課程心得、NX繪製</title><link href="./2024-Spring-40971134-w11-blog-tutorial.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-05-04T10:29:57+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-05-02:./2024-Spring-40971134-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;W11 課程心得上傳、利用NX繪製鋼球平衡台所需的零組件&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W11 課程心得上傳、利用NX繪製鋼球平衡台所需的零組件&lt;/p&gt;
 
 
@@ -7,7 +7,7 @@
 &lt;h2&gt;課程心得上傳&lt;/h2&gt;
 &lt;p&gt;這學期初學到了新的知識，使用replit、codespaces去維護個人或分組網站的內容，第三周使用LaTeX製作期中的分組報告、以及第五周在教學影片上字幕，這兩次的任務讓我知道現在ai處理任何事情的利害，讓大家在工作上、生活上都可以有許多的便利性，期中後的任務有NX零組件繪圖以及CoppeliaSim場景模擬，這些以前有學過所以操作起來比較迅速。這門協同課程也學習到了如何團隊合作，遇到問題的時候互相幫助，無法解決的話就需要尋求老師的幫助。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;利用NX繪製鋼球平衡台所需的零組件&lt;/h2&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-04-30T17:38:37+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
+&lt;h2&gt;利用NX繪製鋼球平衡台所需的零組件&lt;/h2&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W10實習課程任務</title><link href="./2024-Spring-40971134-w10-blog-tutorial.html" rel="alternate"></link><published>2024-04-25T11:00:00+08:00</published><updated>2024-05-04T10:58:13+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-25:./2024-Spring-40971134-w10-blog-tutorial.html</id><summary type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W10 實習操作&lt;/p&gt;
 
 
@@ -34,6 +34,15 @@
 &lt;h3&gt;論文六 : 2D Ball Balancer Control using QUARC&lt;/h3&gt;
 &lt;p&gt;摘要:這篇論文的摘要描述了使用QUARC系統控制二維球平衡器的研究。本研究針對實現在平衡板上穩定球的位置，設計了基於比例-積分-微分（PID）控制器的控制系統。論文涵蓋了從基礎建模到控制器設計的多個階段，並在實驗室設定中使用Quanser 2DBB裝置評估控制策略的表現。&lt;/p&gt;
 &lt;p&gt;結論:研究結果表明，設計的控制系統能夠成功實現對球位置的精確調節。通過對比例速度（PV）補償器和PID補償器的設計，可以滿足特定的時域響應規範，同時也探索了設置點權重和積分器抗飽和等控制技術。此外，實驗結果顯示，控制系統在無執行器飽和的情況下，能夠滿足所有預定的性能規格。未來的工作將集中在提高球位置反饋信號的過濾質量上，以進一步提升自動控制系統的速度和效率。&lt;/p&gt;
+&lt;h2&gt;利用Python模組將系統控制過程，鋼球在平衡台上的x方向座標與y方向，並利用matplotlib畫出來&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1.開啟可攜程式系統中的 CoppeliaSim&lt;/li&gt;
+&lt;li&gt;2.開啟鋼球平衡台模擬場景&lt;/li&gt;
+&lt;li&gt;3.啟動可攜程式系統，pip install keyboard cbor pyzmq matplotlib&lt;/li&gt;
+&lt;li&gt;4.在SciTE中執行上列程式，確定系統穩定後，按下Q終止模擬&lt;/li&gt;
+&lt;li&gt;5.matplotlib將畫出鋼球在平台上的x與y座標圖&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr&gt;
 &lt;h2&gt;任務三&lt;/h2&gt;</content><category term="w10"></category><category term="網誌編寫"></category></entry><entry><title>40971134_W8期中資料整理</title><link href="./2024-Spring-40971134-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-04-28T14:03:53+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-04-11:./2024-Spring-40971134-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;W8 介紹W1到期中所做的部分&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W8 介紹W1到期中所做的部分&lt;/p&gt;
