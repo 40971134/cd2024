@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w12</title><link href="./" rel="alternate"></link><link href="./feeds/w12.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T11:07:50+08:00</updated><entry><title>40971134_W12實習課程任務</title><link href="./2024-Spring-40971134-w12-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T11:00:00+08:00</published><updated>2024-05-10T11:07:50+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-05-09:./2024-Spring-40971134-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;W12 實習操作&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40971134協同產品設計實習 - w12</title><link href="./" rel="alternate"></link><link href="./feeds/w12.atom.xml" rel="self"></link><id>./</id><updated>2024-05-10T11:39:49+08:00</updated><entry><title>40971134_W12實習課程任務</title><link href="./2024-Spring-40971134-w12-blog-tutorial.html" rel="alternate"></link><published>2024-05-09T11:00:00+08:00</published><updated>2024-05-10T11:39:49+08:00</updated><author><name>40971134</name></author><id>tag:None,2024-05-09:./2024-Spring-40971134-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;W12 實習操作&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W12 實習操作&lt;/p&gt;
 
 
 &lt;h1&gt;W12&lt;/h1&gt;
 &lt;h2&gt;任務一 零件繪製的 NXOpen Python 程式&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://1drv.ms/u/c/9683d19a89b0dec7/EQ3uut8aASNBiLgEmOqMlGcBf5-2Of_jeJUI3C2BGqKjqQ?e=d6A8Zf"&gt;程式碼&lt;/a&gt;
-心得:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://1drv.ms/u/c/9683d19a89b0dec7/EQ3uut8aASNBiLgEmOqMlGcBSDsAfEdxBvt5oV0dq4nIfg?e=Zttayc"&gt;程式碼&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;心得:第一次使用NX的Journal錄製，照著老師教學的方式去錄製遇到了一些問題，我是在新增零件檔後才開始錄製，所以要使用我的程式碼去畫出零組件的話，必須先新增一個空白的零件檔才能使用。其他組員也有遇到一樣的問題，但是他們在新增一個空白的零件檔後還是無法使用。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;任務二 將分組倉儲設為評分網站子模組&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/mdecd2024/2bstud-2bsite"&gt;2b 評分倉儲&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;任務三 跨網路操控足球機器人進行競技&lt;/h2&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry></feed>
+&lt;h2&gt;任務三 跨網路操控足球機器人進行競技&lt;/h2&gt;
+&lt;p&gt;照著老師的&lt;a href="https://mde.tw/cd2024/blog/2024-cd-w12-practice.html"&gt;執行步驟&lt;/a&gt;一步一步做就能順利地操作足球機器人&lt;/p&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry></feed>
